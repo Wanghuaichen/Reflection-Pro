@@ -10,6 +10,7 @@
 #include "CommonMessage.h"
 #include "USystemTrayIconCtrl.h"
 */
+// check changes view in github
 #include "filepathmanager.h"
 #include <QCloseEvent>
 #include <QGridLayout>
