@@ -1,0 +1,23 @@
+#include "Reflection.h"
+#include "ui_Reflection.h"
+#include "EnumViewType.h"
+
+
+Reflection::Reflection(QWidget *parent) :
+    QWidget(parent),
+    ui(new Ui::Reflection)
+{
+    ui->setupUi(this);
+    this->Initialize();
+}
+
+Reflection::~Reflection()
+{
+    delete ui;
+}
+
+void Reflection::Initialize()
+{
+}
+
+

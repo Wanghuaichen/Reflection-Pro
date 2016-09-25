@@ -1,0 +1,28 @@
+#ifndef REFLECTION_H
+#define REFLECTION_H
+
+#include <QWidget>
+
+class AbstractView;
+
+namespace Ui {
+class Reflection;
+}
+
+class Reflection : public QWidget
+{
+    Q_OBJECT
+
+public:
+    explicit Reflection(QWidget *parent = 0);
+    ~Reflection();
+
+public:
+    void Initialize();
+private:
+
+private:
+    Ui::Reflection *ui;
+};
+
+#endif // REFLECTION_H
